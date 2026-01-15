@@ -10,7 +10,7 @@ from src.nano_llm.inference.generate import generate_text
 def main():
     """Generate text using a trained model."""
     # Default configuration
-    data_path = 'data/raw/sample.txt'
+    data_path = 'data/raw/chat.txt'
     checkpoint_path = 'checkpoints/nano/checkpoint_final.pt'
     prompt = "The "
     max_length = 200

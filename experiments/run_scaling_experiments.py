@@ -203,7 +203,7 @@ def run_width_scaling_experiments(data_path: str):
 
 
 if __name__ == '__main__':
-    data_path = 'data/raw/sample.txt'
+    data_path = 'data/raw/chat.txt'
     
     print("=" * 60)
     print("Nano-LLM Scaling Experiments")
